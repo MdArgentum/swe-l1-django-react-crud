@@ -1,0 +1,42 @@
+.single-contact-view{
+    width: 450px;
+    margin: 0 auto;
+    .single-contact-header{
+        text-align: center;
+        line-height: 8px;
+    }
+    .loding{
+        width: 100 vw;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .single-views{
+        border: 1px solid black;
+        padding: 10px;
+        .btn-update{
+            background-color: lawngreen;
+            padding: 10px;
+            text-align: center;
+            .btn-link{
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: bold;
+                color: black;
+            }
+        }
+    }
+    .contact-not-found{
+        text-align: center;
+        color: red;
+        border: 1px solid red;
+        padding: 18px 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .single-contact-view{
+        width: 100%;
+    }
+  }
